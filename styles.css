@@ -592,11 +592,13 @@ h1 {
   height: 450px;
   animation: moveTrains 20s linear infinite;
   animation-delay: 8s;
+  visibility: hidden;
 }
 
 @keyframes moveTrains {
   0% {
     transform: translateX(100%);
+    visibility: visible;
   }
   5%{
     transform: translateX(60%);
@@ -1026,11 +1028,14 @@ z-index: 1000;
   animation: movecars 10s linear infinite;
   z-index: -1;
   animation-delay: 3s;
+  visibility: hidden;
 }
 
 @keyframes movecars {
   0% {
     transform: translateX(-150%);
+    visibility: visible;
+
   }
   20% {
     transform: translateX(150%);
