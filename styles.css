@@ -842,7 +842,7 @@ height: auto;
   color: #000000;
   z-index: 1000;
   position: relative;
-  top: 330px;
+  top: -120px;
   left: 450px;
 }
 
@@ -871,7 +871,7 @@ z-index: 1000;
   color: #000000;
   z-index: 1000;
   position: relative;
-  top: 320px;
+  top: -120px;
   left: 450px;
 }
 .boxCastle{
