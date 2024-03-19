@@ -895,7 +895,6 @@ z-index: 1000;
   background-color: aqua;
   border: none;
   border-radius: 20px;
-  margin-top: 370px;
   cursor: pointer;
   -webkit-box-shadow: 1px 3px 11px -5px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 1px 3px 11px -5px rgba(0, 0, 0, 0.69);
@@ -903,6 +902,7 @@ z-index: 1000;
   margin-right: 20px;
   position: relative;
   left: 1340px;
+  top: -80px;
 }
 
 .download-zip:hover {
