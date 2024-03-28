@@ -26,17 +26,3 @@ nextButton.addEventListener('click', () => {
 });
 
 updateImage();
-
-const showMoreButton = document.querySelector('.show-more-button');
-const additionalText = document.querySelector('.additional-text');
-const boxAbout = document.querySelector('.boxAbout');
-showMoreButton.addEventListener('click', () => {
-    additionalText.classList.toggle('hidden');
-    boxAbout.classList.toggle('expanded');
-    showMoreButton.classList.toggle('show-less-button')
-    if (additionalText.classList.contains('hidden')) {
-        showMoreButton.textContent = 'Show More';
-    } else {
-        showMoreButton.textContent = 'Show Less';
-    }
-});
